@@ -15,10 +15,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
-  gem 'rspec'
+  gem 'rspec-rails', '3.1.0'
+end
+
+group :test do
+  gem 'capybara', '2.7.1'
 end
 
 group :development do
