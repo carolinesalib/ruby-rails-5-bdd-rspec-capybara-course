@@ -15,11 +15,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
-  gem 'rspec-rails', '3.1.0'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'capybara', '2.7.1'
+  gem 'capybara'
 end
 
 group :development do
